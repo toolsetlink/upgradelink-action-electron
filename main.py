@@ -11,7 +11,7 @@ def call_api(access_key, electron_key, github_token, json_data):
     """调用API并传递JSON数据"""
     try:
 
-        api_url = 'http://xg.api.upgrade.toolsetlink.com/v1/electron/github-aciton/upload'
+        api_url = 'https://api.upgrade.toolsetlink.com/v1/electron/github-aciton/upload'
 
         logger.info(f"Calling API: {api_url}")
 
